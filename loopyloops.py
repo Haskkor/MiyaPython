@@ -8,6 +8,11 @@ while answer == 'yes':
     print(str(hippos) + ' balancing hippos!!!')
     answer = input('Add another hippo? (no/yes)')
 
-while True:
+for hooray_counter in range(1, 3):
+    for hip_couter in range(1, 4):
+        print('Hip')
+    print('Hooray!')
+
+while False:
     print('This is an infinite loop!')
           
